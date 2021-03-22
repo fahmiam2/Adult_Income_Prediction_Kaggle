@@ -1,6 +1,10 @@
 # Introduction
 
-This data was extracted from the 1994 Census bureau database by Ronny Kohavi and Barry Becker (Data Mining and Visualization, Silicon Graphics). A set of reasonably clean records was extracted using the following conditions__: ((AAGE>16) && (AGI>100) && (AFNLWGT>1) && (HRSWK>0)). The prediction task is to determine whether a person makes over $50K a year.
+This data was extracted from the 1994 Census bureau database by Ronny Kohavi and Barry Becker (Data Mining and Visualization, Silicon Graphics). A set of reasonably clean records was extracted using the following conditions: (
+
+(AAGE>16) && (AGI>100) && (AFNLWGT>1) && (HRSWK>0)). 
+
+The prediction task is to determine whether a person makes over $50K a year.
 
 __Description of fnlwgt (final weight)__ 
 
@@ -42,7 +46,7 @@ Build a model that predicts whether a person has an income above 50k.
 In this task, we will need to solve the classification problem (whether a person has a return above 50k or not - __0 or 1). It is necessary to select the most significant features
 
 ### Expected Submission
-At the output, the algorithm should output 0 - __the yield is lower than or equal to 50k, or 1 - __the yield is higher than 50k.
+At the output, the algorithm should output 0 - __the yield is lower than or equal to 50k__, or 1 - __the yield is higher than 50k__.
 
 # License
 
